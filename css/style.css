@@ -4,7 +4,23 @@ body {
   font-weight: 500;
 }
 
-.nav-bar a {
+.navbar ul {
+  display: flex;
+  text-decoration: none;
+  width: 1151px;
+  height: 25px;
+  left: 143px;
+  top: 145px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #515151;
+}
+.navbar li {
   text-decoration: none;
 }
 
@@ -16,12 +32,15 @@ body {
   height: 50px;
   width: 146px;
 }
+
 .covid-info {
   display: flex;
 }
+
 .breaking-news {
   display: flex;
 }
+
 .breaking-newul {
-display: flex;
+  display: flex;
 }
