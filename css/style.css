@@ -1,0 +1,27 @@
+body {
+  font-family: 'Rubik', 'Verdana', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+.telegram-link {
+
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #1E96C8;
+  height: 50px;
+  width: 146px;
+}
+.covid-info {
+  display: flex;
+}
+.breaking-news {
+  display: flex;
+}
+.breaking-newul {
+display: flex;
+}
