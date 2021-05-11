@@ -5,51 +5,64 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Namanganliklar24</title>
 </head>
 
 <body>
-  <header>
-    <a href="index.html">
-      <img src="img/logo.svg" alt="namanganlikrar24-logo">
-    </a>
-    <!-- CURRENCY-->
-    <img src="img/currensy.png" alt="" srcset="img/currensy.png 1x, img/currensy@2x.png 2x">
-    <!--serch botton-->
-    <img src="img/Vector.png" alt="search-botton" srcset="img/Vector.png 1x, img/vector@2x.png 2x">
-    <img src="img/flag.png" alt="change language to russian" srcset="img/flag.png 1x, img/flag@2x.png 2x">
-    <p>РУ</p>
-    <a class="telegram-link" href="index.html">
-      <img src="img/cib_telegram.png" alt="telegram icon">Подписатся
-    </a>
+  <header class="container header">
+    <div class="header-container container">
+      <div class="header-top">
+        <div class="header-top-left">
+          <a href="#">
+            <img src="img/logo.svg" alt="namanganlikrar24-logo">
+          </a>
+        </div>
+        <!-- CURRENCY-->
+        <div class="header-top-right">
 
+          <p>РУ</p>
+          <a class="telegram-link" href="#">
+            <img src="img/cib_telegram.png" alt="telegram icon">Подписатся
+          </a>
+        </div>
+      </div>
+
+    </div>
     <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Узбекистана</a></li>
-        <li><a href="index.html">Мир</a></li>
-        <li><a href="index.html">Экономика</a></li>
-        <li><a href="index.html">Политика</a></li>
-        <li><a href="index.html">Общество</a></li>
-        <li><a href="index.html">Технологии</a></li>
-        <li><a href="index.html">Спорт</a></li>
-        <li><a href="index.html">Культура</a></li>
-        <li><a href="index.html">Происшествия</a></li>
-        <li><a href="index.html">Туризм</a></li>
-      </ul>
-    </nav>
-  </header>
+      <ul class="nav_item">
+        <li class="nav_link"><a class="
+          nav_bar_link" href="#">Узбекистана</a></li>
+          <li class="nav_link"><a class="
+            nav_bar_link" href="#">Мир</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Экономика</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Политика</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Общество</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Технологии</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Спорт</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Культура</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Происшествия</a></li>
+      <li class="nav_link"><a class="
+        nav_bar_link" href="#">Туризм</a></li>
+    </ul>
 
+    <aside class="container">
+      <img src="img/nrg-banner.png" alt="Reklama" srcset="img/nrg-banner.png 1x, img/nrg-banner@2x.png 2x" width="1200"
+        height="99">
+    </aside>
+  </nav>
+</header>
 
-  <aside>
-    <img src="img/nrg-banner.png" alt="Reklama" srcset="img/nrg-banner.png 1x, img/nrg-banner@2x.png 2x" width="1200"
-      height="99">
-  </aside>
-
-  <main>
-    <div class="covid-info">
+<!-- MAIN -->
+<main>
+    <section class="covid-info container">
       <div>
         <img src="img/korona1.png" alt="COVID-19" srcset="img/korona1.png 1x, img/korona@2x.png 2x">
         <p>Коронавирус COVID-19
@@ -66,182 +79,186 @@
         <p>Умерли
           12</p>
       </div>
-    </div>
+    </section>
 
 
-    <div class="breaking-news">
-      <ul class="breaking-newul">
-        <div>
-          <li><a href="index.html">
-              <img src="img/1.png" alt="Мирзиёев рассказал, зачем было построено
-              Сардобинское водохранилище" height="190" width="386" srcset="img/1.png 1x, img/1@2x.png 2x">
+    <section class="news-section container">
+      <div class="breaking-news">
+        <ul class="grid_items">
+
+          <li class="grid_part">
+            <a href="#">
+              <img src="img/prisident.png" alt="Мирзиёев рассказал, зачем было построено
+                Сардобинское водохранилище" height="190" width="386" srcset="img/prisident.png 1x, img/prisident@2x.png 2x">
             </a>
-            <p>
+            <p class="grid_item">
               Мирзиёев рассказал, зачем было построено
               Сардобинское водохранилище
-              <time datetime="2021-04-27T5:23:00">5:23 / 27.04.2021</time>
             </p>
+            <time class="grid_time" datetime="2021-04-27T5:23:00">5:23 / 27.04.2021</time>
           </li>
-        </div>
-        <div>
-          <li><a href="index.html">
-              <img src="img/karantin.png" alt="Карантин в Узбекистане продлен до 1 июня" height="190" width="386"
-                srcset="img/karantin.png 1x, img/karantin@.png 2x">
+          <li class="grid_part">
+            <a href="#">
+              <img src="img/karantin.png" alt="Мирзиёев рассказал, зачем было построено
+                Сардобинское водохранилище" height="190" width="386" srcset="img/karantin.png 1x, img/karantin@2x.png 2x">
             </a>
-            <p>
-              Карантин в Узбекистане продлен до 1 июня
-              <time datetime=" 2021-04-27 5:23">5:23/27.04.2021</time>
+            <p class="grid_item">
+              Мирзиёев рассказал, зачем было построено
+              Сардобинское водохранилище
             </p>
+            <time class="grid_time" datetime="2021-04-27T5:23:00">5:23 / 27.04.2021</time>
           </li>
-        </div>
-        <div>
-          <li><a href="index.html">
-              <img src="img/3.png" alt="Обмелевшая Сардоба: стихия иличеловеческий фактор?" height="190" width="386">
+          <li class="grid_part">
+            <a href="#">
+              <img src="img/sardoba.png" alt="Мирзиёев рассказал, зачем было построено
+                Сардобинское водохранилище" height="190" width="386" srcset="img/sardoba.png 1x, img/sardoba@2x.png 2x">
             </a>
-            <p>Обмелевшая Сардоба: стихия иличеловеческий фактор?" <time
-                datetime=" 2021-04-27 5:23">5:23/27.04.2021</time></p>
-          </li>
-        </div>
-        <div>
-          <li><a href="index.html">
-              <img src="img/4.png" alt="Следствие проверяет четыре версии
-              прорыва Сардобинской плотины" height="190" width="386" srcset="img/4.png 1x, img/4@2x.png 2x">
-            </a>
-            <p>
-              Следствие проверяет четыре версии
-              прорыва Сардобинской плотины
-              <time datetime=" 2021-04-27 5:23">5:23/27.04.2021</time>
+            <p class="grid_item">
+              Мирзиёев рассказал, зачем было построено
+              Сардобинское водохранилище
             </p>
+            <time class="grid_time" datetime="2021-04-27T5:23:00">5:23 / 27.04.2021</time>
           </li>
-        </div>
-        <div>
-          <li><a href="index.html">
-              <img src="img/4.png" alt="Выявлено еще 7 случаев коронавируса" height="190" width="386"
-                srcset="img/4.png 1x, img/4@2x.png 2x">
+          <li class="grid_part">
+            <a href="#">
+              <img src="img/prakrol.png" alt="Мирзиёев рассказал, зачем было построено
+                Сардобинское водохранилище" height="190" width="386" srcset="img/prakrol.png 1x, img/prakrol@2x.png 2x">
             </a>
-            <p>
-              Выявлено еще 7 случаев коронавируса
-              <time datetime=" 2021-04-27 5:23">5:23/27.04.2021</time>
+            <p class="grid_item">
+              Мирзиёев рассказал, зачем было построено
+              Сардобинское водохранилище
             </p>
+            <time class="grid_time" datetime="2021-04-27T5:23:00">5:23 / 27.04.2021</time>
           </li>
-        </div>
-        <div>
-          <li><a href="index.html">
-              <img src="img/6.png" alt="Итоги второго месяца карантина" height="190" width="386"
-                srcset="img/6.png 1x, img/6@2x.png 2x">
+          <li class="grid_part">
+            <a href="#">
+              <img src="img/ambulance.png" alt="Мирзиёев рассказал, зачем было построено
+                Сардобинское водохранилище" height="190" width="386" srcset="img/ambulance.png 1x, img/ambulance@2x.png 2x">
             </a>
-            <p>
-              Итоги второго месяца карантина
-              <time datetime=" 2021-04-27 5:23">5:23/27.04.2021</time>
+            <p class="grid_item">
+              Мирзиёев рассказал, зачем было построено
+              Сардобинское водохранилище
             </p>
+            <time class="grid_time" datetime="2021-04-27T5:23:00">5:23 / 27.04.2021</time>
           </li>
-        </div>
+          <li class="grid_part">
+            <a href="#">
+              <img src="img/chegara.png" alt="Мирзиёев рассказал, зачем было построено
+                Сардобинское водохранилище" height="190" width="386" srcset="img/chegara.png 1x, img/chegara@2x.png 2x">
+            </a>
+            <p class="grid_item">
+              Мирзиёев рассказал, зачем было построено
+              Сардобинское водохранилище
+            </p>
+            <time class="grid_time" datetime="2021-04-27T5:23:00">5:23 / 27.04.2021</time>
+          </li>
+        </ul>
 
 
-        </li>
-      </ul>
-    </div>
+      </div>
+    </section>
 
-    <samp>
-      <a href="index.html">
+
+
+    <section class="container">
+      <a href="#">
         <img src="img/bell-icon.png" alt="Qungiroq rasmi" srcset="img/bell-icon.png 1x, img/bell-icon@2x.png 2x>
-      </a>
-      <p><b>Хотите узнать новости первыми? подключите уведомления!</b></p>
-
-      <a href=" index.html">
+        </a>
+        <p><b>Хотите узнать новости первыми? подключите уведомления!</b></p>
+        <a href=" #">
         Включит уведомления!
       </a>
-    </samp>
+    </section>
 
 
-    <div>
-      <h2>Последние новости</h2>
-      <a href="index.html">
-        <img src="img/m1.png" alt="sardoba" srcset="img/m1.png 1x , img/m1@2x.png 2x">
-        <p><b>
-            По факту прорыва Сардобинского водохранилища
-            возбуждено уголовное дело
-          </b><br>
-          После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе
-          Генпрокуратуры Узбекистана.
-        </p>
-        <p>
-          <img src="img/kalendar.png" alt="kalendar">
-          <time datetime="2020-12-12 12:34">11:31 / 15.05.2020</time>
-        </p>
-      </a>
-      <a href="index.html">
-        <img src="img/m2.png" alt="shavkat-mirziyoyev">
-        <p><b>
-            Мирзиёев: «Нам следовало бы принять некоторые правила
-          </b><br>
-          Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять
-          некоторые правила периода карантина как часть своей повседневной жизни.
-        </p>
-        <p>
-          <img src="img/kalendar.png" alt="kalendar">
-          <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
-        </p>
-      </a>
-      <a href="index.html">
-        <img src="img/m3.png" alt="">
-        <p><b>
-            В Ташкенте планируют ввести новую систему электронных проездных билетов
 
-          </b><br>
-          Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где
-          проходят основные маршруты.
-          <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
-        </p>
+    <section class="container">
+      <div>
+        <h2>Последние новости</h2>
+        <a href="#">
+          <img src="img/m1.png" alt="sardoba" srcset="img/m1.png 1x , img/m1@2x.png 2x">
+          <p><b>
+              По факту прорыва Сардобинского водохранилища
+              возбуждено уголовное дело
+            </b><br>
+            После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе
+            Генпрокуратуры Узбекистана.
+          </p>
+          <p>
+            <img src="img/kalendar.png" alt="kalendar">
+            <time datetime="2020-12-12 12:34">11:31 / 15.05.2020</time>
+          </p>
+        </a>
+        <a href="#">
+          <img src="img/m2.png" alt="shavkat-mirziyoyev">
+          <p><b>
+              Мирзиёев: «Нам следовало бы принять некоторые правила
+            </b><br>
+            Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы
+            принять
+            некоторые правила периода карантина как часть своей повседневной жизни.
+          </p>
+          <p>
+            <img src="img/kalendar.png" alt="kalendar">
+            <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
+          </p>
+        </a>
+        <a href="#">
+          <img src="img/m3.png" alt="">
+          <p><b>
+              В Ташкенте планируют ввести новую систему электронных проездных билетов
+            </b><br>
+            Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где
+            проходят основные маршруты.
+            <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
+          </p>
+        </a>
+        <a href="#">
+          <img src="img/m1.png" alt="sardoba">
+          <p><b>
+              По факту прорыва Сардобинского водохранилища
+              возбуждено уголовное дело
+            </b><br>
+            После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе
+            Генпрокуратуры Узбекистана.
+          </p>
+          <p>
+            <img src="img/kalendar.png" alt="kalendar">
+            <time datetime="2020-12-12 12:34">11:31 / 15.05.2020</time>
+          </p>
+        </a>
+        <a href="#">
+          <img src="img/m2.png" alt="">
+          <p><b>
+              карантина как часть повседневной жизни»
+            </b><br>
+            Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы
+            принять
+            некоторые правила периода карантина как часть своей повседневной жизни.
+          </p>
+          <p>
+            <img src="img/kalendar.png" alt="kalendar">
+            <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
+          </p>
+        </a>
+        <a href="#">
+          <img src="img/m3.png" alt="">
+          <p><b>
+              В Ташкенте планируют ввести новую систему электронных проездных билетов
+            </b><br>
+            Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где
+            проходят основные маршруты.
+            <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
+          </p>
+        </a>
+      </div>
 
-      </a>
-      <a href="index.html">
-        <img src="img/m1.png" alt="sardoba">
-        <p><b>
-            По факту прорыва Сардобинского водохранилища
-            возбуждено уголовное дело
-          </b><br>
-          После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе
-          Генпрокуратуры Узбекистана.
-        </p>
-        <p>
-          <img src="img/kalendar.png" alt="kalendar">
-          <time datetime="2020-12-12 12:34">11:31 / 15.05.2020</time>
-        </p>
-      </a>
-      <a href="index.html">
-        <img src="img/m2.png" alt="">
-        <p><b>
-            карантина как часть повседневной жизни»
-          </b><br>
-          Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять
-          некоторые правила периода карантина как часть своей повседневной жизни.
-        </p>
-        <p>
-          <img src="img/kalendar.png" alt="kalendar">
-          <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
-        </p>
-      </a>
-      <a href="index.html">
-        <img src="img/m3.png" alt="">
-        <p><b>
-            В Ташкенте планируют ввести новую систему электронных проездных билетов
-
-          </b><br>
-          Целью этих изменений является максимально возможное сокращение количества других маршрутов на улицах, где
-          проходят основные маршруты.
-          <time datetime="2020-15-05 11:31">11:31 / 15.05.2020</time>
-        </p>
-
-      </a>
-    </div>
-
-    <samp>
       <a href="#">Больше новостей</a>
-    </samp>
+    </section>
 
 
-    <div>
+
+    <div class="container">
       <h2>Cамые популярные новости</h2>
       <ul>
         <li><a href="#">По факту прорыва Сардобинского водохранилища
@@ -266,7 +283,7 @@
 
 
 
-    <section>
+    <section class="container">
       <img src="img/phone.png" alt="phone-picture" srcset="img/phone.png 1x" img/phone@2x.png 2x>
       <h2>Всегда будьте в курсе последних новостей!</h2>
       <p>Установите мобильное приложение NAMANGANLIKLAR24
@@ -276,7 +293,7 @@
     </section>
 
 
-    <footer>
+    <footer class="container">
       <img src="img/logo.svg" alt="logo-namanganlikra24">
       <p>Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
       <a href="#">
@@ -299,7 +316,6 @@
         <li><a href="#">Наш а команда</a></li>
       </ul>
     </footer>
-
   </main>
 </body>
 
