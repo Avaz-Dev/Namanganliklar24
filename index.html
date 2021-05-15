@@ -5,81 +5,100 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Namanganliklar24</title>
 </head>
 
 <body>
-  <header class="container header">
-    <div class="header-container container">
-      <div class="header-top">
-        <div class="header-top-left">
-          <a href="#">
-            <img src="img/logo.svg" alt="namanganlikrar24-logo">
-          </a>
-        </div>
-        <!-- CURRENCY-->
-        <div class="header-top-right">
 
-          <p>РУ</p>
+  <!-- HEADER -->
+  <header class="site_header">
+    <div class="container">
+
+      <!--SITE HEADER TOP-->
+      <div class="site_header_top">
+          <a class="site_header_logo" href="#">
+            <img src="img/logo.svg" alt="namanganlikrar24 logo">
+          </a>
+          <ul class="exchange_rates">
+            <li>
+<b class="exchange-currensy">$</b>
+              <span class="exchange_rate_value">10137.2</span>
+            </li>
+            <li>
+<b class="exchange-currensy">P</b>
+              <span class="exchange_rate_value">138.26</span>
+            </li>
+            <li>
+<b class="exchange-currensy">€</b>
+              <span class="exchange_rate_value">10988.72</span>
+            </li>
+          </ul>
           <a class="telegram-link" href="#">
             <img src="img/cib_telegram.png" alt="telegram icon">Подписатся
           </a>
         </div>
-      </div>
 
-    </div>
-    <nav class="navbar">
-      <ul class="nav_item">
-        <li class="nav_link"><a class="
-          nav_bar_link" href="#">Узбекистана</a></li>
-          <li class="nav_link"><a class="
-            nav_bar_link" href="#">Мир</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Экономика</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Политика</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Общество</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Технологии</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Спорт</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Культура</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Происшествия</a></li>
-      <li class="nav_link"><a class="
-        nav_bar_link" href="#">Туризм</a></li>
+  <!-- HEADER NAVBAR -->
+  <nav class="site_header_navbar">
+    <ul class="nav_item">
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Узбекистана</a>
+      </li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Мир</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Экономика</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Политика</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Общество</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Технологии</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Спорт</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Культура</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Происшествия</a></li>
+      <li class="nav_link">
+        <a class="nav_bar_link" href="#">Туризм</a></li>
     </ul>
-
-    <aside class="container">
-      <img src="img/nrg-banner.png" alt="Reklama" srcset="img/nrg-banner.png 1x, img/nrg-banner@2x.png 2x" width="1200"
-        height="99">
-    </aside>
   </nav>
-</header>
-
-<!-- MAIN -->
-<main>
-    <section class="covid-info container">
-      <div>
-        <img src="img/korona1.png" alt="COVID-19" srcset="img/korona1.png 1x, img/korona@2x.png 2x">
-        <p>Коронавирус COVID-19
-          в Узбекистане</p>
-      </div>
-      <div>
-        <img src="img/korona2.png" alt="COVID-19-yuqtirganlar" srcset="img/korona2.png 1x, img/korona@2x.png 2x">
-        <p>Инфицированы
-          2753</p>
       </div>
 
-      <div>
-        <img src="img/korona4.png" alt="Умерли" srcset="img/korona4.png 1x, img/korona4@2x.png 2x">
-        <p>Умерли
-          12</p>
+
+    <!-- NRG BANNER -->
+    <aside class="container">
+      <a href="#">
+        <img src="img/nrg-banner.png" alt="Reklama" srcset="img/nrg-banner.png 1x, img/nrg-banner@2x.png 2x"
+          width="1200" height="99">
+      </a>
+    </aside>
+  </header>
+
+  <!-- MAIN -->
+  <main class="site_contend">
+    <article class="covid-info container">
+      <div class="covid">
+        <div>
+          <img src="img/korona1.png" alt="COVID-19" srcset="img/korona1.png 1x, img/korona@2x.png 2x">
+          <p>Коронавирус COVID-19
+            в Узбекистане</p>
+        </div>
+        <div>
+          <img src="img/korona2.png" alt="COVID-19-yuqtirganlar" srcset="img/korona2.png 1x, img/korona@2x.png 2x">
+          <p>Инфицированы
+            2753</p>
+        </div>
+        <div>
+          <img src="img/korona4.png" alt="Умерли" srcset="img/korona4.png 1x, img/korona4@2x.png 2x">
+          <p>Умерли
+            12</p>
+        </div>
       </div>
-    </section>
+    </article>
 
 
     <section class="news-section container">
@@ -89,7 +108,8 @@
           <li class="grid_part">
             <a href="#">
               <img src="img/prisident.png" alt="Мирзиёев рассказал, зачем было построено
-                Сардобинское водохранилище" height="190" width="386" srcset="img/prisident.png 1x, img/prisident@2x.png 2x">
+                Сардобинское водохранилище" height="190" width="386"
+                srcset="img/prisident.png 1x, img/prisident@2x.png 2x">
             </a>
             <p class="grid_item">
               Мирзиёев рассказал, зачем было построено
@@ -100,7 +120,8 @@
           <li class="grid_part">
             <a href="#">
               <img src="img/karantin.png" alt="Мирзиёев рассказал, зачем было построено
-                Сардобинское водохранилище" height="190" width="386" srcset="img/karantin.png 1x, img/karantin@2x.png 2x">
+                Сардобинское водохранилище" height="190" width="386"
+                srcset="img/karantin.png 1x, img/karantin@2x.png 2x">
             </a>
             <p class="grid_item">
               Мирзиёев рассказал, зачем было построено
@@ -111,7 +132,8 @@
           <li class="grid_part">
             <a href="#">
               <img src="img/sardoba.png" alt="Мирзиёев рассказал, зачем было построено
-                Сардобинское водохранилище" height="190" width="386" srcset="img/sardoba.png 1x, img/sardoba@2x.png 2x">
+                Сардобинское водохранилище" height="190" width="386"
+                srcset="img/sardoba.png 1x, img/sardoba@2x.png 2x">
             </a>
             <p class="grid_item">
               Мирзиёев рассказал, зачем было построено
@@ -122,7 +144,8 @@
           <li class="grid_part">
             <a href="#">
               <img src="img/prakrol.png" alt="Мирзиёев рассказал, зачем было построено
-                Сардобинское водохранилище" height="190" width="386" srcset="img/prakrol.png 1x, img/prakrol@2x.png 2x">
+                Сардобинское водохранилище" height="190" width="386"
+                srcset="img/prakrol.png 1x, img/prakrol@2x.png 2x">
             </a>
             <p class="grid_item">
               Мирзиёев рассказал, зачем было построено
@@ -133,7 +156,8 @@
           <li class="grid_part">
             <a href="#">
               <img src="img/ambulance.png" alt="Мирзиёев рассказал, зачем было построено
-                Сардобинское водохранилище" height="190" width="386" srcset="img/ambulance.png 1x, img/ambulance@2x.png 2x">
+                Сардобинское водохранилище" height="190" width="386"
+                srcset="img/ambulance.png 1x, img/ambulance@2x.png 2x">
             </a>
             <p class="grid_item">
               Мирзиёев рассказал, зачем было построено
@@ -144,7 +168,8 @@
           <li class="grid_part">
             <a href="#">
               <img src="img/chegara.png" alt="Мирзиёев рассказал, зачем было построено
-                Сардобинское водохранилище" height="190" width="386" srcset="img/chegara.png 1x, img/chegara@2x.png 2x">
+                Сардобинское водохранилище" height="190" width="386"
+                srcset="img/chegara.png 1x, img/chegara@2x.png 2x">
             </a>
             <p class="grid_item">
               Мирзиёев рассказал, зачем было построено

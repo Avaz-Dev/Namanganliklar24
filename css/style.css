@@ -24,11 +24,11 @@ body {
 }
 
 .container {
-  max-width: 1230px;
+  max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* header */
@@ -37,50 +37,61 @@ body {
   display: flex;
 }
 
-.header {
+.site_header {
+  padding-top: 40px;
+  padding-bottom: 25px;
   background-color: #F6F6F9;
 }
+.site_header_logo {
+    padding: 8px;
+    margin-right: 17px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
 
-.header-top {
+}
+
+.site_header_top {
   display: flex;
-  justify-content: space-between;
-
-
+  align-items: center;
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 19px;
 }
-
-.header-top-left {
-  margin-right: auto;
+.exchange_rates {
+display: flex;
+align-items: center;
+padding: 0;
+margin: 0;
+list-style: none;
 }
-
-.header-top-right {
+.exchange-currensy {
+  color: #295093;
+  font-weight: bold;
+}
+.exchange_rate_value {
+  color: #7a7a7a;
+}
+.site_header_navbar {
   display: flex;
-  margin-left: auto;
-}
-
-.navbar {
-  width: 120px;
-  height: 86px;
-  font-weight: 500;
+  padding: 15px 0px;
+  justify-content: center;
+  margin-bottom: 20px;
   font-size: 19px;
-  line-height: 23px;
-  color: #515151;
+  list-style: none;
+  border-radius: 5px;
   background: #FFFFFF;
   box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
-  border-radius: 5px;
 }
 
 .nav_item {
   display: flex;
   list-style: none;
-
-  width: 1151px;
   height: 25px;
   left: 143px;
   top: 145px;
-  font-style: 500;
-  font-weight: 500;
   font-size: 19px;
   line-height: 23px;
+  padding-left: 0;
 }
 
 .nav_bar_link {
@@ -97,20 +108,26 @@ body {
 }
 
 .telegram-link {
-
+text-align: justify;
   border-radius: 5px;
   text-decoration: none;
   background-color: #1E96C8;
   height: 50px;
   width: 146px;
-  padding: 50px;
-
 }
-
+/* SITE CONTEND */
+.site_contend {
+  flex-grow: 1;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
 .covid-info {
-  display: flex;
   background-color: #F6F6F9;
-  ;
+}
+.covid {
+  display: flex;
+  padding: 30px 35px;
+  background-color: #f6f6f9;
 }
 
 .breaking-news {
@@ -148,6 +165,5 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #6B6D97;
-
+  color: #5057d4;
 }
